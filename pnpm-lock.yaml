@@ -1,6 +1,7 @@
 lockfileVersion: 5.4
 
 specifiers:
+  '@ant-design/icons': ^5.0.1
   antd: ^5.3.0
   async-validator: ^4.2.5
   coco-git: ^1.3.6
@@ -15,6 +16,7 @@ specifiers:
   react-use-measure: ^2.1.1
 
 dependencies:
+  '@ant-design/icons': registry.npmmirror.com/@ant-design/icons/5.0.1
   antd: registry.npmmirror.com/antd/5.3.0
   async-validator: registry.npmmirror.com/async-validator/4.2.5
   coco-git: registry.npmmirror.com/coco-git/1.3.6
