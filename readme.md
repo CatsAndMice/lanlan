@@ -2,9 +2,10 @@
 你的个人工作助理
 
 ## Support
-`直接发给chatgpt`,`写个正则`,`写个英语小作文`,`中文邮件`,`英文邮件`,`说了啥`等等
+`直接发给chatgpt`,`写个正则`,`写个英语小作文`,`中文邮件`,`英文邮件`等等
 
-PR welcome
+
+![智能文案小助手——览览](https://linglan008-blog.oss-cn-hangzhou.aliyuncs.com/chatgpt.gif)
 
 ## How it works
 
