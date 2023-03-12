@@ -2,8 +2,6 @@ import { render } from "preact"
 import { useState } from "preact/hooks"
 import Github from "./components/Github"
 import Image from "antd/es/image"
-import step1Image from "./image/1-black.png"
-import step2Image from "./image/2-black.png"
 import DropDown from "./components/DropDown"
 import { Input, Button } from "antd"
 import { WechatOutlined } from "@ant-design/icons"
@@ -13,6 +11,8 @@ import ResizablePanel from "./components/ResizeableRanel"
 import LoadingDots from "./components/LoadingDots"
 import { promptObj } from "./src/const.js"
 const { TextArea } = Input
+const step1Image = new URL("./image/1-black.png", import.meta.url)
+const step2Image = new URL("./image/2-black.png", import.meta.url)
 
 const App = () => {
     const defaultDesc = '富婆女朋友六十大寿，帮我写一百字的生日祝福'

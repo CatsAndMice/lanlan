@@ -8,8 +8,8 @@ export default function ResizablePanel({
 
     return (
         <motion.div
-            // animate={height ? { height } : {}}
-            // style={height ? { height } : {}}
+            animate={height ? { height } : {}}
+            style={height ? { height } : {}}
             className="relative w-full overflow-hidden"
             transition={{ type: "tween", duration: 0.5 }}
         >
