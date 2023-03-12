@@ -4,8 +4,7 @@
 ## Support
 `直接发给chatgpt`,`写个正则`,`写个英语小作文`,`中文邮件`,`英文邮件`等等
 
-
-![智能文案小助手——览览](https://linglan008-blog.oss-cn-hangzhou.aliyuncs.com/chatgpt.gif)
+![image](https://user-images.githubusercontent.com/58327088/224527353-76b262fb-aaff-40ca-a69f-96bf4f9e14de.png)
 
 ## How it works
 
