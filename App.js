@@ -25,33 +25,33 @@ const App = () => {
 
     const generateDesc = () => {
         setLoading(true)
-        fetch('http://112.124.1.74:8080/chat', {
-            method: 'POST',
-            mode: 'cors',
-            headers: {
-                "Content-Type": "application/json",
-            },
-            body: JSON.stringify({
-                prompt,
-            }),
-        }).then(async (req) => {
-            const reader = req.body.getReader();
-            const utf8Decoder = new TextDecoder('utf-8');
-            while (true) {
-                const { done, value } = await reader.read();
-                //数据获取完成后，跑出循环
-                if (done) {
-                    setLoading(false)
-                    return;
+        fetch('xxx',
+            {
+                method: 'POST',
+                mode: 'cors',
+                headers: {
+                    "Content-Type": "application/json",
+                },
+                body: JSON.stringify({
+                    prompt,
+                }),
+            }).then(async (req) => {
+                const reader = req.body.getReader();
+                const utf8Decoder = new TextDecoder('utf-8');
+                while (true) {
+                    const { done, value } = await reader.read();
+                    //数据获取完成后，跑出循环
+                    if (done) {
+                        setLoading(false)
+                        return;
+                    }
+                    console.log(utf8Decoder.decode(value))
+                    setGeneratedDescs(utf8Decoder.decode(value))
                 }
-                console.log(utf8Decoder.decode(value))
-                setGeneratedDescs(utf8Decoder.decode(value))
-            }
-        }, () => {
-            setLoading(false)
-            setGeneratedDescs('网络错误，请重试')
-        })
-
+            }, () => {
+                setLoading(false)
+                setGeneratedDescs('网络错误，请重试')
+            })
     }
 
     return <div class="flex max-w-5xl mx-auto flex-col items-center justify-center py-2 min-h-screen">
