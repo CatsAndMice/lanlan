@@ -6,6 +6,9 @@
 
 ![image](https://user-images.githubusercontent.com/58327088/224527353-76b262fb-aaff-40ca-a69f-96bf4f9e14de.png)
 
+服务器、代理节点均需要购买，为能长期维护该网站，需要大家的帮助
+![20C9210C-CE47-4B55-9652-67F9BE381F4A](https://user-images.githubusercontent.com/58327088/225800242-4f3c1e07-4545-4a94-a0ba-de5e3299ffdd.jpeg)
+
 ## How it works
 
 Inspired by [EmailHelper](https://email-helper.vercel.app/) and [Danny Richman](https://twitter.com/DannyRichman/status/1598254671591723008?ref_src=twsrc%5Etfw%7Ctwcamp%5Etweetembed%7Ctwterm%5E1598254671591723008%7Ctwgr%5Eb7deab6eb03d86a1b9ac13f7e38cdeab57a40cbb%7Ctwcon%5Es1_&ref_url=https%3A%2F%2Fwww.buzzfeednews.com%2Farticle%2Ftomwarren%2Fai-app-dyslexic-email-writer-help)
